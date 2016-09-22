@@ -1,0 +1,22 @@
+{
+  "name": "runoob-react-test",
+  "version": "1.0.0",
+  "description": "菜鸟教程 react 测试",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "less-loader": "^2.2.3",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8"
+  },
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.16.1"
+  }
+}

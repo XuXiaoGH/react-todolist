@@ -1,0 +1,52 @@
+body{
+	background-color:lightseagreen;
+}
+
+.container{
+	width: 500px;
+	height:500px;
+	margin: 50px auto;
+	color: #fff;
+	font-family: "Microsoft YaHei UI";
+}
+
+.del{
+	float: right;
+	display: none;
+}
+
+.todoHeader{
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.todoTaskContent{
+	width:200px;
+	height:35px;
+}
+
+.addBtn{
+	width: 50px;
+	height: 37px;
+}
+
+.todoList{
+	font-family: "Microsoft YaHei UI";
+	font-size: 14px;
+	list-style: none;
+	color: #fff;
+	margin-left: 0px;
+	/*border: 1px solid red;*/
+}
+.todoList li{
+	margin-left : -35px;
+	width: 200px;
+	height: 35px;
+	border-bottom: 1px solid beige;
+	line-height: 35px;
+}
+
+.footer{
+	font-size: 14px;
+}
