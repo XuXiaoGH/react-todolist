@@ -1,5 +1,5 @@
 import React from 'react';
-class TodoHeader extends React.Component {
+class TodoAddText extends React.Component {
 
    constructor(props) {
       super(props);
@@ -47,4 +47,4 @@ class TodoHeader extends React.Component {
    }
 
 }
-export default TodoHeader;
+export default TodoAddText;

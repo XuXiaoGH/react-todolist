@@ -70,43 +70,6 @@ class Todo extends React.Component {
          </div>
       );
    }
-
-
-
-
-
-
 }
-
- /*var Todo = React.createClass({
-    getDefaultProps: function() {
-       return {
-          name: 'run'
-       };
-    },
-    render: function() {
-       return <h1>Hello {this.props.name}</h1>;
-    }
-
- })*/
-
-/*var Todo = React.createClass({
-   /!*设置初始状态*!/
-   getInitialState: function(){
-      return {liked : false};
-   },
-   xuxiaoClick: function(){
-      this.setState({liked: !this.state.liked});
-   },
-   render : function(){
-      var text = this.state.liked ? '喜欢' : '不喜欢';
-      return (
-          <p onClick={this.xuxiaoClick}>
-             你<b>{text}</b>我，点我切换状态。
-          </p>
-      );
-   }
-});*/
-
 
 export default Todo;
